@@ -72,3 +72,4 @@ while True:
     cv2.imshow("Image", out)
     cv2.waitKey(1)
 
+신입의 수정수정수정
