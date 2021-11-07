@@ -9,10 +9,7 @@ cap.set(4, 1000)
 detector = HandDetector(detectionCon=0.8)
 colorR = 255, 0, 255
 
-cx, cy, w, h = 100, 100, 200, 200
-
-나는 리더다! 나는 놀고 먹나!
-나도 일하고 있었어!
+cx, cy, w, h = 400, 400, 200, 200
 
 class DragRect():
     def __init__(self, posCenter, size=[200,200]):
