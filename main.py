@@ -11,6 +11,8 @@ colorR = 255, 0, 255
 
 cx, cy, w, h = 100, 100, 200, 200
 
+나는 리더다! 나는 놀고 먹나!
+나도 일하고 있었어!
 
 class DragRect():
     def __init__(self, posCenter, size=[200,200]):
@@ -71,5 +73,3 @@ while True:
 
     cv2.imshow("Image", out)
     cv2.waitKey(1)
-
-신입의 수정수정수정
