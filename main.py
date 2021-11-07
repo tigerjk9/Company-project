@@ -9,8 +9,7 @@ cap.set(4, 1000)
 detector = HandDetector(detectionCon=0.8)
 colorR = 255, 0, 255
 
-cx, cy, w, h = 100, 100, 200, 200
-
+cx, cy, w, h = 400, 400, 200, 200
 
 class DragRect():
     def __init__(self, posCenter, size=[200,200]):
@@ -71,5 +70,3 @@ while True:
 
     cv2.imshow("Image", out)
     cv2.waitKey(1)
-
-신입의 수정수정수정
